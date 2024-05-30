@@ -7,11 +7,10 @@
 </head>
 <body>
 <nav class="navbar">
-<div class="navbar-cover">
-    <img src="../assets/user.svg" style="scale: 60%" >
-    <img src="../assets/travelo.png" style="scale: 60%" >
-    <img src="../assets/search.svg" style="scale: 60%" >
-
+    <div class="navbar-cover">
+    <img class="search-ico" src="../assets/search.svg" style="scale: 80%" >
+    <img class="logo" src="../assets/travelo.png" style="scale: 70%" >
+    <a href="../component/udirect.php"><img class="user" src="../assets/user.svg" style="scale: 80%" ></a>
 </div>
 </nav>
 </body>

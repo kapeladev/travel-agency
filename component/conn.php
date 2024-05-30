@@ -1,6 +1,6 @@
 <?php 
 function dbconnect(){
-    $conn = mysqli_connect('localhost', 'root', 'P@$$w0rd','travelsite');
+    $conn = mysqli_connect('localhost', 'root', '','travelsite');
     if($conn->connect_error){
         die;
     }

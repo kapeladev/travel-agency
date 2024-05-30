@@ -28,6 +28,133 @@ body{
 }
 .navbar-cover{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         max-height: 50px;
+        width: 100%;
+}
+a{
+    display: flex;
+}
+.search-ico{
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+}
+.user{
+    cursor: pointer;
+}
+.trip-container{
+    background-color: aqua;
+    display: flex;
+    margin: 0 10% 0 10%;
+    flex-direction: column;
+}
+.trip-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 10% 0% 10%;
+    border: 2px solid black;
+
+}
+.des{
+    margin: 0 10% 0 10%;
+}
+
+
+.userpage-container{
+    display: flex;
+    justify-content: center;
+    background-color: #3853d8;
+    margin: 2% 20% 0 20%;
+    border-radius: 10px;
+    padding-bottom: 20%;
+}
+.userpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.userpage-name{
+   font-family: "Montserrat", sans-serif;    
+   font-size: 2rem;
+   margin-bottom: 2rem;
+   
+
+}
+.addproduct-button{
+    width: 100px;
+    height: 20px;
+    margin-left: 1rem;
+}
+.addproduct-name{
+   font-family: "Montserrat", sans-serif;    
+    
+}
+.addproduct-container{
+    display: flex;
+    align-items: center;
+}
+.addproduct-button{
+    width: 100px;
+    height: 20px;
+    margin-left: 1rem;
+}
+.addproduct-name{
+   font-family: "Montserrat", sans-serif;    
+    
+}
+.addproduct-container{
+    display: flex;
+    align-items: center;
+}
+
+
+/* ADD PRODUCT FORM */
+.addform label{
+   display: block;
+}
+.addform-container{
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    text-align: center;
+}
+.addform .ad{
+    margin: 10px 0;
+    
+}
+.formadd{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formadd .photo{
+    max-width: 180px;
+}
+.addform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trip-img{
+    width: 500px; 
+    margin: 5% 0 5% 0;
+}
+@media screen and (max-width: 870px) {
+    .trip-img{
+        max-width: 200px;
+    }
+    
 }
