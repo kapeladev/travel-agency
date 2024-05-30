@@ -6,7 +6,7 @@
     <title>travelo</title>
 </head>
 <body>
-    <?php include('navbar.php')?>
+    <?php include('locknavbar.php')?>
     <?php include('frontcover.php')?>
 </body>
 </html>

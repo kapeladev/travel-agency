@@ -1,6 +1,8 @@
 <?php 
 session_start();
+include('navbar.php');
 echo $_SESSION['login'];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +12,7 @@ echo $_SESSION['login'];
     <title>Document</title>
 </head>
 <body>
-    ELO ELO
+    <a href="../component/logout.php">logout</a>
 
 </body>
 </html>

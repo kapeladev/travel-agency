@@ -1,6 +1,33 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.lnavbar{
+    display: flex;
+    justify-content: center;
+    background-color: #B8A4F8;
+    max-height: 50px;
+}
+.lnavbar-cover{
+    display: flex;
+    justify-content: space-around;
+    max-height: 50px;
+}
 .front-buttons{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
+}
+
+.navbar{
+        display: flex;
+        justify-content: center;
+        background-color: #B8A4F8;
+        max-height: 50px;
+}
+.navbar-cover{
+        display: flex;
+        justify-content: space-evenly;
+        max-height: 50px;
 }
